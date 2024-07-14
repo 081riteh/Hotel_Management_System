@@ -17,6 +17,8 @@ To run this project, you need the following software installed on your system:
 
 - **Java Development Kit (JDK) 8 or higher**: The programming language used for developing the application.
 - **JDBC**: Java Database Connectivity API for database operations.
+- **IDE** :eclipse or intelliJ for writing code and add jar files to it.
+- **mysql-connector**:  Add jdbc mysql connector given in the github in your IDE.
 - **MySQL**: The database used for storing hotel data (phpMyAdmin).
 - **Git**: Version control system.
 
