@@ -37,7 +37,7 @@ cd hotel_management_system
 
 ### Step 4: Configure the Database Connection
 
-Update the `db.properties` file with your database credentials:
+Update the `DBHome.java` file with your database credentials:
 
 ```properties
 db.url=jdbc:mysql://localhost:3306/hotel
