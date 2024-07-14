@@ -25,8 +25,8 @@ To run this project, you need the following software installed on your system:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hotel-management-system.git
-cd hotel-management-system
+git clone https://github.com/081riteh/Hotel_Management_System.git
+cd hotel_management_system
 ```
 
 ### Step 2: Set Up the Database
@@ -38,7 +38,7 @@ cd hotel-management-system
 Update the `db.properties` file with your database credentials:
 
 ```properties
-db.url=jdbc:mysql://localhost:3306/hotel_management
+db.url=jdbc:mysql://localhost:3306/hotel
 db.username=root
 db.password=yourpassword
 ```
@@ -53,12 +53,11 @@ java startApp.java
 
 ## Project Structure
 
-- **src/main/java/com/hotelmanagement/**: Contains the main application code.
-  - **database/**: Handles database connections and operations using JDBC.
-  - **models/**: Contains the data models (Guest, Room, Reservation, Bill).
-  - **services/**: Contains the business logic and operations.
-  - **utils/**: Contains utility classes for input validation, date formatting, etc.
-- **src/main/resources/**: Contains configuration files like `db.properties`.
+- **src/startApp.java**: Contains the main application code.
+  - **Backend/**: Handles database connections and operations using JDBC.
+  - **Frontend/**: Contains the frontend part of the application.
+  - **Business Logic/**: Contains the business logic and operations.
+  - **Interfaces/**: Contains the interfaces of all the functionalities.
 
 ## Explanation of the Project
 
@@ -88,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or need further assistance, please contact [your email address].
+If you have any questions or need further assistance, please contact sritehkumar2000@gmail.com.
 
 ---
 
