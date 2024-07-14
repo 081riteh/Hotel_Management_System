@@ -50,7 +50,8 @@ db.password=yourpassword
 Run the application using the following command:
 
 ```bash
-java startApp.java
+javac startApp.java
+java startApp
 ```
 
 ## Project Structure
